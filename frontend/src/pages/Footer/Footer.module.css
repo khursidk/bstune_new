@@ -1,0 +1,86 @@
+
+.footer {
+    background-color: black;
+    font-size: 1rem;
+    padding: 10px 50px;
+    display: flex;
+    gap: 10vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-weight: bold;
+  }
+  .info {
+    color: white;
+  }
+  .info h4 {
+    color: #ff0000;
+  }
+  .info p:hover {
+    cursor: pointer;
+    color: #ff0000;
+    transition: 0.3s ease;
+  }
+  
+  .footerLogo {
+    margin-top: 30px;
+    display: flex;
+  }
+
+  .footerIcon {
+    color: white;
+    margin-right: 15px;
+    cursor: pointer;
+    font-size:25px;
+  }
+
+  .footerIcon :hover {
+    color: #ff0000;
+    transition: 0.3s ease;
+  }
+  .footerIcon a {
+    text-decoration: none;
+  }
+  .copyright {
+    padding: 20px 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+  }
+
+  @media (max-width: 605px) {
+    .footer {
+      background-color: black;
+      font-size: 1rem;
+      padding: 10px 50px;
+      display: flex;
+      gap: 3vw;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  @media (max-width: 515px) {
+    .footer {
+      background-color: black;
+      font-size: 0.9rem;
+      padding: 10px 50px;
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  @media (max-width: 489px) {
+    .footer {
+      background-color: black;
+      font-size: 0.9rem;
+      padding: 10px 50px;
+      display: block;
+      text-align: center;
+    }
+    .footerLogo {
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+    }
+  }

@@ -1,0 +1,47 @@
+.title {
+    text-align: center;
+    margin-top: 50px;
+    color: #ff0000;
+    }
+    .formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    }
+    .gridContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 100%;
+    max-width: 800px;
+    }
+    .inputField {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Saira Condensed';
+    font-weight: bold;
+    }
+    .inputField input ,select{
+    border-radius: 40px;
+    padding:10px 20px;
+    font-size:20px ;
+    outline: none;
+    background-color: #e8f0ff;
+    border: 1px solid #ccc;
+    color: #333;
+    }
+    .inputField label {
+    margin-bottom: 5px;
+    margin-left: 20px;
+    font-size: 20px;
+    }
+    .submitButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }

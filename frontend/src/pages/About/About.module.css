@@ -1,0 +1,134 @@
+.About{
+  font-family: 'Saira Condensed';
+  width: 100%;
+  
+  font-weight: bold;
+}
+
+.divider{
+  color:white;
+  text-align:center;
+  font-size: 2.5rem;
+  margin: 3vw auto;
+  font-weight: bolder;
+  padding: 0 15px;
+ background-color: #ff0000;
+}
+
+.dec{
+  background-color: black;
+  color: white;
+  font-size: 1.6rem;
+  word-spacing: 0.4rem;
+  line-height: 3.3rem;
+  text-align: center;
+  padding:80px 20vw;
+}
+.dec1{
+  background-color: black;
+  color: white;
+  font-size: 1.6rem;
+  word-spacing: 0.4rem;
+  line-height: 3.3rem;
+  text-align: center;
+  padding:80px 20vw;
+}
+.dec2{
+  background-color: black;
+  color: white;
+  font-size: 1.6rem;
+  word-spacing: 0.4rem;
+  line-height: 3.3rem;
+  text-align: center;
+  padding:80px 20vw;
+}
+.member{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  gap :100px;
+  padding: 100px 100px;
+}
+
+
+.getIn{
+  padding: 0 20vw;
+  line-height: 2rem;
+  font-weight: 200;
+  margin-bottom: 100px;
+}
+.getIn p{
+font-size: 25px;
+}
+.footer {
+    background-color: black;
+    font-size: 1rem;
+    padding: 10px 50px;
+    display: flex;
+    gap: 10vw;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .info {
+    color: white;
+  }
+  .info h4 {
+    color: #ff0000;
+  }
+  .info p:hover {
+    cursor: pointer;
+    color: #ff0000;
+  }
+  .footerLogo {
+    color: white;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+  .footerLogo :hover {
+    color: #ff0000;
+  }
+  .copyright {
+    padding: 20px 0 20px 0;
+    text-align: center;
+    background-color: black;
+    color: white;
+  }
+  .footerIcon {
+    margin-right: 15px;
+  }
+  .footerLogo {
+    color: white;
+    cursor: pointer;
+  }
+
+  @media (max-width: 605px) {
+    .footer {
+      background-color: black;
+      font-size: 1rem;
+      padding: 10px 50px;
+      display: flex;
+      gap: 3vw;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  @media (max-width: 515px) {
+    .footer {
+      background-color: black;
+      font-size: 0.9rem;
+      padding: 10px 50px;
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  @media (max-width: 489px) {
+    .footer {
+      background-color: black;
+      font-size: 0.9rem;
+      padding: 10px 50px;
+      display: block;
+      text-align: center;
+    }
+  }

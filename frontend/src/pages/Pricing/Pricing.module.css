@@ -1,0 +1,35 @@
+
+.main{
+  font-family: 'Saira Condensed';
+  font-weight: bold;
+}
+.pricing{
+  margin:
+   100px 50px;
+}
+.container{
+  display: flex;
+  gap:30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.cards{
+  width: 370px;
+  height: 800px;
+  overflow: hidden;
+}
+.cardText{
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+}
+.cardFeatures{
+  padding: 0 40px;
+}
+.price{
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  color: white;
+  padding: 10px 0;
+}
